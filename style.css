@@ -28,7 +28,8 @@ span,
 a {
   color: #f90;
 }
-p {
+p,
+#footer {
   color: #7d7987;
   font-size: 14px;
   line-height: 28px;
@@ -36,4 +37,10 @@ p {
 /*colocando o espaçamento entre os links do rodpé*/
 #footer a + a {
   margin-left: 28px;
+}
+#line {
+  width: 568px;
+  height: 0;
+  margin: 0 auto 8px;
+  border-top: 1px solid #eceff2;
 }
