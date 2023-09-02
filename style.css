@@ -33,6 +33,7 @@ p,
   color: #7d7987;
   font-size: 14px;
   line-height: 28px;
+  margin-bottom: 33px;
 }
 /*colocando o espaçamento entre os links do rodpé*/
 #footer a + a {
@@ -43,4 +44,9 @@ p,
   height: 0;
   margin: 0 auto 8px;
   border-top: 1px solid #eceff2;
+}
+#balls {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
 }
