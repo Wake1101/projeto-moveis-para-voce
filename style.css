@@ -1,10 +1,16 @@
+/*alinhando os elementos e adicionando a fonte*/
 body {
   font-family: "Open Sans", sans-serif;
   text-align: center;
+  margin: 0;
 }
+/*ajustando alinhamento e espçamento*/
 #hero {
   width: 592px;
-  margin: auto;
+  margin: 0 auto 72px;
+}
+#hero img {
+  margin-bottom: 72px;
 }
 /*aplicando a fonte nos elementos do site */
 h1 {
@@ -12,6 +18,7 @@ h1 {
   font-size: 49px;
   line-height: 56px;
   font-weight: 400;
+  margin-bottom: 32px;
 }
 h1 span {
   font-weight: 700;
@@ -25,4 +32,8 @@ p {
   color: #7d7987;
   font-size: 14px;
   line-height: 28px;
+}
+/*colocando o espaçamento entre os links do rodpé*/
+#footer a + a {
+  margin-left: 28px;
 }
