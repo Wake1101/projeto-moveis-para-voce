@@ -1,7 +1,28 @@
-/*aplicando a fonte nos elementos do site */
-h1 {
-}
 body {
   font-family: "Open Sans", sans-serif;
+  text-align: center;
 }
-/*testes*/
+#hero {
+  width: 592px;
+  margin: auto;
+}
+/*aplicando a fonte nos elementos do site */
+h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 49px;
+  line-height: 56px;
+  font-weight: 400;
+}
+h1 span {
+  font-weight: 700;
+}
+/*adicionando cores para as palavras destacadas*/
+span,
+a {
+  color: #f90;
+}
+p {
+  color: #7d7987;
+  font-size: 14px;
+  line-height: 28px;
+}
